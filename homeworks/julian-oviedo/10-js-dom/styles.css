@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(20, 40px);
+  grid-template-rows: repeat(30, 40px);
+  justify-content: center;
+}
+
+.cell {
+  border: 1px solid darkblue;
+}

@@ -1,0 +1,32 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #242530;
+}
+
+.result-container {
+  background-color: #242530;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+  height: 100%;
+}
+
+.result-container__operation {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 39px;
+}
+
+.result-container__result {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 82px;
+}

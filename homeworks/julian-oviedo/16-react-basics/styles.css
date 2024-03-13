@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 240px;
+  height: 560px;
+  margin: 70px auto;
+}
+.post {
+  position: absolute;
+  width: 120px;
+  height: 200px;
+  margin: -40px 65px;
+  background: #414447;
+  border-radius: 40px;
+}
+
+.trafficLight {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #585f68;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: inset 24px 0px 0px rgba(0, 0, 0, 0.1);
+  filter: drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.25));
+}
+
+.trafficLight__light {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  box-shadow: inset 10px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}

@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --red: #df4040;
+  --orange: #e9ec6a;
+  --green: #04ca00;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: red;
+}
+
+.traffic-light {
+  width: 240px;
+  height: 560px;
+  background: #585f68;
+  border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.traffic-light::before {
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 378px;
+  top: -32px;
+  z-index: -1;
+  background: #414447;
+  border-radius: 40px;
+}
+
+.light {
+  width: 120px;
+  height: 120px;
+  background: #5b5b5b;
+  box-shadow: inset 10px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 60px;
+}
+
+.light--red {
+  background-color: var(--red);
+}
+
+.light--orange {
+  background-color: var(--orange);
+}
+
+.light--green {
+  background-color: var(--green);
+}

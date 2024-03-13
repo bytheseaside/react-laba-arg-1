@@ -1,0 +1,41 @@
+@use '../base/variables' as *;
+
+/* Buttons section */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2.9375rem;
+
+  &__btn-primary {
+    background-color: $primary-clr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  &__btn-primary::after {
+    content: url('/icons/arrow-down.svg');
+    width: 18px;
+    height: 20px;
+    padding-bottom: 25px;
+  }
+
+  &__btn-secondary {
+    background-color: $secondary-clr;
+  }
+}
+
+.btn {
+  width: 290px;
+  height: 80px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}

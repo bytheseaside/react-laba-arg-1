@@ -1,0 +1,42 @@
+.card {
+  position: relative;
+  cursor: pointer;
+}
+
+.photo {
+  width: 240px;
+  height: 240px;
+  border-radius: 16px;
+}
+
+.overlay {
+  position: absolute;
+  height: 98%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 16px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  width: 100px;
+  height: auto;
+  filter: invert(1);
+}
+
+.spin {
+  animation: refresh 1000ms infinite linear;
+}
+
+@keyframes refresh {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0.8;
+  }
+}

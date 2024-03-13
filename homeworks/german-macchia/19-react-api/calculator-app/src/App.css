@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+  width: 375px;
+  height: 812px;
+  margin: 1vh auto;
+  position: relative;
+}
+
+.display {
+  background: #17181f;
+  height: 45%;
+  border-radius: 10px;
+  color: aliceblue;
+  text-align: end;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.display__resolution {
+  height: 40%;
+  font-size: xx-large;
+  font-weight: 900;
+  margin: 20px 0px 0px 0px;
+}
+
+.display__resolution--small {
+  font-size: x-large;
+}
+
+.center {
+  margin-top: 35%;
+  color: aliceblue;
+  font-size: x-large;
+  font-weight: 550;
+}
+
+.button-grid {
+  background: #17181f;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  bottom: 0;
+  position: absolute;
+}
+
+.middle-box {
+  width: 93.75px;
+  height: 93.75px;
+  background: #2e2f3e;
+  border: 0.5px solid #242530;
+}
+
+.border-box {
+  font-size: large;
+  width: 93.75px;
+  height: 93.75px;
+  left: 94px;
+  top: 342px;
+  background: #363746;
+  border: 0.5px solid #242530;
+}
+
+.corner--left {
+  border-radius: 30px 0px 0px 0px;
+}
+
+.corner--right {
+  border-radius: 0px 30px 0px 0px;
+}
+
+.bottom-rounded--all {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.bottom-rounded--left {
+  border-radius: 0px 0px 0px 10px;
+}
+
+.bottom-rounded--right {
+  border-radius: 0 0 10px 0;
+}
+
+.large-box {
+  font-size: xx-large;
+  padding-top: 30px;
+  width: 94px;
+  height: 188px;
+  grid-column: 4;
+  grid-row: span 2;
+  background: #f8a138;
+  border: 0.5px solid #242530;
+}
+
+.button:hover {
+  border: 0.5px solid rgb(95, 96, 112);
+  cursor: pointer;
+}
+
+.button:active {
+  border: 0.5px solid rgb(3, 5, 24);
+}

@@ -1,0 +1,89 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  margin: 10vh auto;
+  width: 50%;
+}
+
+.todoList {
+  height: 80vh;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.form__input {
+  width: 80%;
+  height: 5vh;
+  text-align: center;
+  font-size: large;
+}
+
+.form__button {
+  width: 20%;
+  height: 5vh;
+  font-size: large;
+  background: #5275a0;
+  color: aliceblue;
+  border: none;
+}
+
+.form__button--disabled {
+  pointer-events: none;
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5vh;
+}
+
+.task__text {
+  width: 80%;
+  background-color: aliceblue;
+  color: black;
+  text-align: center;
+  font-size: large;
+  padding: 1vh;
+  word-wrap: break-word;
+}
+
+.task__button {
+  display: flex;
+  flex-direction: row;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(33, 24, 32, 0.302);
+}
+
+.modal {
+  height: 17%;
+  width: 50%;
+  background-color: aliceblue;
+  margin: 20vh auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.modal__button {
+  width: 30px;
+  height: 30px;
+}
+
+.modal__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2%;
+}

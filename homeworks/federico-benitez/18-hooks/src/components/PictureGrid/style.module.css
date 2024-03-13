@@ -1,0 +1,13 @@
+.gridPhotos {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  list-style: none;
+}
+
+.footer {
+  padding-block: 3rem;
+  margin: 0 auto;
+  margin-top: auto;
+}

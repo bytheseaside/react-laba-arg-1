@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+div {
+  margin: 20px;
+}
+
+#examples {
+  margin: 50px;
+  color: rgb(151, 151, 151);
+}

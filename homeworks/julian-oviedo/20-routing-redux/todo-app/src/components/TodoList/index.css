@@ -1,0 +1,31 @@
+.list-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.list-group__input {
+  width: 560px;
+  border: none;
+  text-align: center;
+  height: 65px;
+  cursor: pointer;
+}
+
+img {
+  cursor: pointer;
+}
+
+.list-group__button {
+  background-color: #5275a0;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 52px;
+  color: white;
+  border: none;
+  width: 122px;
+  height: 65px;
+  cursor: pointer;
+  margin-right: 10px;
+}

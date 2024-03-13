@@ -1,0 +1,20 @@
+@media screen and (max-width: 700px) {
+  .container {
+    padding: 1rem 0;
+  }
+
+  .todo {
+    display: grid;
+    grid-template-columns: 80vw;
+    padding-bottom: 1rem;
+  }
+
+  .todo__options {
+    margin: auto;
+  }
+
+  .input,
+  .button__add {
+    width: 100%;
+  }
+}

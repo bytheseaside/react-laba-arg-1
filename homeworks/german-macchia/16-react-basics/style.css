@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 240px;
+  height: 560px;
+  margin: 70px auto;
+}
+
+.post {
+  position: absolute;
+  width: 120px;
+  height: 378px;
+  margin: -40px 3.8rem;
+  background: #414447;
+  border-radius: 40px;
+  box-shadow: 5px spx black;
+}
+
+.traffic-light {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #485563;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 60px;
+  padding-top: 2rem;
+  box-shadow: 5px 5px cadetblue;
+}
+
+.traffic-light__light-rail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 90%;
+}
+
+.light {
+  width: 120px;
+  height: 120px;
+  box-shadow: inset 10px 0px 0px rgba(0, 0, 0, 0.1);
+  background: #312f2f;
+  border-radius: 60px;
+  box-shadow: 2px 2px black;
+}

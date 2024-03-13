@@ -1,0 +1,43 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;  
+  background: linear-gradient(
+    116.67deg,
+    #8c72b7 0.58%,
+    rgba(192, 46, 195, 0) 101.02%
+  );
+  overflow: hidden;
+}
+
+img {
+  height: 5vh;
+  width: 5vw;
+}
+
+img:hover{
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+button:hover{
+  cursor: pointer;
+  border: 2px solid whitesmoke;
+}

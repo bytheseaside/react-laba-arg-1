@@ -1,0 +1,25 @@
+
+.footer__button {
+  width: 320px;
+  height: 40px;
+  background: #5e217a;
+  border-radius: 6px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer__button:hover {
+  filter: brightness(2);
+  box-shadow: 2px 2px 2px #5e217a;
+  cursor: pointer;
+}
+
+.footer__button:active {
+  box-shadow: 1px 1px 1px #5e217a;
+}
+

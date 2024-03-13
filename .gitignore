@@ -11,7 +11,3 @@ yarn-error.log*
 .cache
 lectures/09-js-part-5/practice/dist
 dist
-
-# Only add relevant folder inside os tasks #
-homeworks/*
-!homeworks/brisa-rojas

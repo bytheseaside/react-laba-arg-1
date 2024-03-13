@@ -1,0 +1,15 @@
+.bttn-add {
+  width: 240px;
+  height: 240px;
+  background-color: white;
+  border: 4px solid #5e217a;
+  color: #5e217a;
+  border-radius: 16px;
+  font-size: 150px;
+  cursor: pointer;
+  margin: 40px;
+}
+
+.bttn-add:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}

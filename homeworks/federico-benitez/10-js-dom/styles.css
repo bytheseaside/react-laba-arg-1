@@ -1,0 +1,25 @@
+#container {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(30, 1fr);
+  gap: 5px;
+  list-style: none;
+}
+
+.box {
+  border: 1px solid rgb(76, 0, 255);
+  border-radius: 3px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  color: white;
+  text-align: center;
+  user-select: none;
+}
+
+.box--selected {
+  background-color: rgb(53, 101, 245);
+  transition: background 0.3s ease;
+}

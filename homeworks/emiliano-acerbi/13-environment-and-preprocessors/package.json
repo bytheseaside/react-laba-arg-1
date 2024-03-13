@@ -1,0 +1,27 @@
+{
+  "name": "arg-laba",
+  "version": "1.0.0",
+  "description": "Environment task",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sass:build": "sass styles/scss/style.scss:styles/css/style.css",
+    "sass:watch": "sass styles/scss/style.scss:styles/css/style.css --watch"
+  },
+  "keywords": [
+    "solvd",
+    "environment task",
+    "sass"
+  ],
+  "author": "Emiliano Acerbi",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^3.0.7"
+  },
+  "dependencies": {
+    "sass": "^1.54.4"
+  }
+}

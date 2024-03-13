@@ -1,0 +1,33 @@
+@use '../base/variables' as *;
+
+/* Breadcrumbs section */
+
+.breadcrumbs {
+  margin: 0 auto;
+  margin-top: 5rem;
+  background-color: $secondary-clr;
+  list-style: none;
+  padding: 0;
+  width: 756px;
+  height: 116px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 0.3s ease;
+
+  &__item {
+    width: 350px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+}
+
+.selected {
+  background-color: $dark-bg-clr;
+}

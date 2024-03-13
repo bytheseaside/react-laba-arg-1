@@ -1,0 +1,9 @@
+.footer {
+  margin: 130px 0 80px;
+  &__copyright {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 500;
+    color: var(--text-1);
+  }
+}

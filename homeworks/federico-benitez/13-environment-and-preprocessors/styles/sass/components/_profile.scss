@@ -1,0 +1,65 @@
+.profile {
+  width: 618px;
+  &__buttons {
+    height: 80px;
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: 290px 290px;
+    justify-content: space-between;
+  }
+  &__info {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    height: 215px;
+    width: 631px;
+    margin-bottom: 48px;
+    &__picture {
+      outline: 4px solid var(--yellow-1);
+      border-radius: 50%;
+      height: 215px;
+      width: 215px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 40px;
+    }
+    &__name {
+      height: 69px;
+      font-weight: 500;
+      font-size: 46px;
+      line-height: 69px;
+      color: var(--name);
+    }
+    &__position {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 33px;
+      color: var(--text-1);
+      height: 33px;
+      margin-bottom: 12px;
+    }
+    &__social {
+      width: 222px;
+      height: 36px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 26px;
+    }
+  }
+  &__fact {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 634px;
+    height: 142px;
+    &__text {
+      font-size: 22px;
+      line-height: 33px;
+      color: var(--text-2);
+      text-align: center;
+    }
+  }
+}

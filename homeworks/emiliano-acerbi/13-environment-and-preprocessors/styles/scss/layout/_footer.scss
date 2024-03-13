@@ -1,0 +1,12 @@
+@use '../base/variables' as *;
+
+/* Footer */
+
+.footer {
+  padding-top: 4.75rem;
+  padding-bottom: 4.75rem;
+
+  &__text {
+    text-align: center;
+  }
+}

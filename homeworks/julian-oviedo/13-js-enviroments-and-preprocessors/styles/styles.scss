@@ -1,0 +1,230 @@
+//variables
+$white-color: #ffffff;
+$black-color: #0c151d;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  cursor: url(./resources/imgs/001-cursor.png), auto;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.body--darktheme {
+  background-color: $black-color;
+}
+
+// -- HEADER STYLES -- //
+.header {
+  margin-top: 30px;
+  margin-bottom: 65px;
+  height: 50px;
+  text-align: center;
+}
+
+%header__button-shared {
+  border-radius: 50%;
+  padding: 15px;
+  border: 1px solid;
+}
+
+.header__button {
+  @extend %header__button-shared;
+  background-color: $white-color;
+}
+.header__button--dark {
+  @extend %header__button-shared;
+  background-color: $black-color;
+  border: 1px solid $white-color;
+}
+
+.header__button-img--dark {
+  filter: invert(1);
+}
+
+// -- PROFILE INFO STYLES -- //
+%profileInfo-shared {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container__profile-img {
+  @extend %profileInfo-shared;
+}
+.container__profile-photo {
+  @extend %profileInfo-shared;
+  border-radius: 50%;
+  width: 215px;
+  border: 5px solid #f7d039;
+  background: #ffffff;
+  padding: 8px;
+}
+
+.container__profile-info {
+  @extend %profileInfo-shared;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.container-social-media__img {
+  margin: 15px;
+}
+.container-social-media__img:hover {
+  cursor: pointer;
+}
+.container__title--dark {
+  color: $white-color;
+}
+.container__subtitle--dark {
+  color: #a3abb2;
+}
+
+// -- PROFILE FACTS STYLES -- //
+
+%profileFacts-shared {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 140px;
+  padding: 20px 2px;
+  gap: 90px;
+  margin-top: 40px;
+}
+li {
+  list-style: none;
+}
+.profile-facts {
+  @extend %profileFacts-shared;
+  font-size: 25px;
+}
+.profile-facts--dark {
+  @extend %profileFacts-shared;
+  color: $white-color;
+}
+
+// -- FIRST BUTTONS STYLES -- //
+
+.firstbttn-container {
+  text-align: center;
+  margin-bottom: 80px;
+}
+%firstbuttons-shared {
+  width: 290px;
+  height: 80px;
+  font-size: 28px;
+  border-radius: 10px;
+  border: none;
+}
+
+.firstbttn-container__btn {
+  @extend %firstbuttons-shared;
+  background: #fbd144;
+  margin-right: 40px;
+}
+
+.firstbttn-container__btn--bg {
+  @extend %firstbuttons-shared;
+  background: $white-color;
+}
+
+.firstbttn-container__btn--bg--dark {
+  @extend %firstbuttons-shared;
+  background: #171f26;
+  color: #f1f2f4;
+}
+
+// -- SECONDS BUTTONS STYLES -- //
+
+%secondbttnsContainer-share {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 760px;
+  height: 110px;
+  margin: auto;
+  border-radius: 20px;
+  margin-bottom: 80px;
+}
+.secondbttn-container {
+  @extend %secondbttnsContainer-share;
+  background-color: $white-color;
+}
+.secondbttn-container--dark {
+  @extend %secondbttnsContainer-share;
+  background-color: #171f26;
+}
+
+%secondsButtons-share {
+  width: 352px;
+  height: 80px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+}
+.secondbttn-container__btn {
+  @extend %secondsButtons-share;
+  margin-left: 20px;
+}
+
+.secondbttn-container__btn--bg {
+  @extend %secondsButtons-share;
+  background-color: $white-color;
+}
+
+.secondbttn-container__btn--dark {
+  @extend %secondsButtons-share;
+  margin-left: 20px;
+  background-color: #0c151d;
+  color: $white-color;
+}
+
+.secondbttn-container__btn--bg--dark {
+  @extend %secondsButtons-share;
+  background-color: $white-color;
+  background-color: #171f26;
+  color: $white-color;
+}
+
+// -- CARD STYLES -- //
+
+.tab {
+  width: 800px;
+  height: 950px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.tab__card {
+  margin-bottom: 48px;
+  margin-right: 32px;
+}
+.tab__card:hover {
+  cursor: pointer;
+  border: 5px solid #f7d039;
+}
+
+// -- FOOTER STYLES -- //
+%footer-shared {
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+}
+footer {
+  @extend %footer-shared;
+}
+.footer--dark {
+  @extend %footer-shared;
+  color: #fff;
+}

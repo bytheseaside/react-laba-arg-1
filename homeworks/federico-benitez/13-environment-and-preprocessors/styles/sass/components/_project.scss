@@ -1,0 +1,18 @@
+.project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 32px;
+  row-gap: 48px;
+  &__item {
+    width: 362px;
+    height: 226px;
+    cursor: pointer;
+    border-radius: 15px;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

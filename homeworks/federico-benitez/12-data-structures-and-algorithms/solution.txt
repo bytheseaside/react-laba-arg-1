@@ -1,0 +1,17 @@
+straight search: 0.162ms 
+ {
+  sku: 'ff5e8af2-655e-4a01-bad0-56e86332640f',
+  name: 'Wine - Saint - Bris 2002, Sauv',
+  price: '£10.54',
+  pack: 5
+} 
+
+sorting array: 0.894ms
+binary search: 0.097ms 
+ {
+  sku: 'ff5e8af2-655e-4a01-bad0-56e86332640f',
+  name: 'Wine - Saint - Bris 2002, Sauv',
+  price: '£10.54',
+  pack: 5
+} 
+

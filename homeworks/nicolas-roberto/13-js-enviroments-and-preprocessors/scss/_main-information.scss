@@ -1,0 +1,125 @@
+$background-dark-grey: #171f26;
+$color-dark-gray: #3d3d3d;
+$color-light-gray: #f1f2f4;
+$background-yellow: #fbd144;
+
+@mixin font-size($fontSize) {
+  font-size: $fontSize;
+}
+
+.main--information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .main--information__profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 2px;
+    gap: 90px;
+    .main--information__number {
+      color: #3a3a3a;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 0;
+    }
+    .main--information__data {
+      @include font-size(22px);
+      line-height: 33px;
+      color: $color-gray;
+      margin: 0;
+    }
+  }
+  .main--information__buttons {
+    width: 618px;
+    height: 80px;
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    .main--information__btn {
+      width: 290px;
+      height: 80px;
+      border: none;
+      @include font-size(22px);
+      line-height: 33px;
+      font-weight: 600;
+      border-radius: 10px;
+      .main--information__btn > img {
+        width: 17.99px;
+        height: 20px;
+      }
+    }
+    .btn--yellow {
+      color: $color-dark-gray;
+      background: $background-yellow;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .btn--white {
+      color: $color-dark-gray;
+      background: #ffffff;
+    }
+  }
+}
+
+/* Main information dark */
+.main--information__dark {
+  color: $color-light-gray;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  .main--information__profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 2px;
+    gap: 90px;
+    .main--information__numberDark {
+      font-size: 24px;
+      line-height: 36px;
+      margin: 0;
+    }
+
+    .main--information__dataDark {
+      @include font-size(22px);
+      line-height: 33px;
+      margin: 0;
+    }
+  }
+  .main--information__buttons {
+    width: 618px;
+    height: 80px;
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    .main--information__btn {
+      width: 290px;
+      height: 80px;
+      border: none;
+      @include font-size(22px);
+      line-height: 33px;
+      font-weight: 600;
+      border-radius: 10px;
+      .main--information__btn > img {
+        width: 17.99px;
+        height: 20px;
+      }
+    }
+    .btn--yellow {
+      color: $color-dark-gray;
+      background: $background-yellow;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .btn--grey {
+      color: $color-light-gray;
+      background: $background-dark-grey;
+    }
+  }
+}

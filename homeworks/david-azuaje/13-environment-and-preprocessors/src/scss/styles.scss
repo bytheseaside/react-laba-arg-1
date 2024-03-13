@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+$text-dark: #3d3d3d;
+$text-light: #575757;
+$yellow: #fbd144;
+$white: #fff;
+$background: #e5e5e5;
+$btnMode: #fff;
+$cta-portfolio: #d7d7d7;
+$contactMe: #fff;
+$downloadCV: #3d3d3d;
+
+.darkTheme {
+    $text-dark: #fff;
+    $background: #0c151d;
+    $btnMode: #171f26;
+    $text-light: #a3abb2;
+    $cta-portfolio: #0c151d;
+    $contactMe: #171f26;
+    $downloadCV: black;
+}
+
+@mixin flexboxCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: $background;
+    color: $text-dark;
+}
+
+/*----------Btn Mode-------*/
+
+.mode {
+    @include flexboxCenter();
+    margin: 35px auto;
+    width: 20px;
+    height: 20px;
+    background-color: $btnMode;
+    border-radius: 50% 50%;
+    padding: 30px 30px;
+
+    & .mode img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/*------Profile--------*/
+
+.profile {
+    @include flexboxCenter();
+    width: 800px;
+    margin: 0 auto;
+
+    .profile__img {
+        width: 50%;
+        @include flexboxCenter();
+
+        & img {
+            width: 192px;
+            height: 192px;
+            cursor: pointer;
+            margin-left: 120px;
+        }
+    }
+}
+
+.profile__info {
+    width: 50%;
+    height: 150px;
+    margin: 20px 20px;
+
+    & h1 {
+        margin: 7px 0;
+        font-size: 46px;
+        color: $text-dark;
+    }
+
+    & p {
+        margin: 10px 0;
+        font-size: 22px;
+        color: $text-light;
+    }
+}
+
+.profile__logos img {
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+/*-------Facts------------*/
+
+.facts {
+    @include flexboxCenter();
+    margin: 50px 0;
+
+    & .facts__fact {
+        margin: 0 10px;
+        width: 105px;
+        text-align: center;
+        color: $text-light;
+    }
+
+    & p {
+        margin-top: 5px;
+    }
+
+}
+
+/*----------Cta-----------*/
+
+.cta {
+    @include flexboxCenter();
+    margin-top: 20px;
+
+    & button {
+        width: 250px;
+        height: 65px;
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    & .cta__download {
+        margin-right: 20px;
+        background-color: $yellow;
+        color: $downloadCV;
+    }
+
+    & .cta__download img {
+        width: 15px;
+        height: 15px;
+    }
+
+    & .cta__contactMe {
+        background-color: $contactMe;
+        color: $text-light;
+    }
+}
+
+/*------------Tabs---------------------*/
+
+.tabs {
+    @include flexboxCenter();
+    border-radius: 10px;
+    background-color: $contactMe;
+    padding: 10px;
+    width: 600px;
+    margin: 50px auto;
+
+    & .tabs__portfolio {
+        margin-right: 70px;
+        cursor: pointer;
+        font-size: 22px;
+        font-weight: 500;
+        color: $text-light;
+        background-color: $cta-portfolio;
+    }
+
+    & .tabs__skills {
+        background-color: $contactMe;
+        cursor: pointer;
+        font-size: 22px;
+        font-weight: 500;
+        color: $text-light;
+    }
+
+    & button {
+        width: 200px;
+        border: none;
+        height: 50px;
+        border-radius: 10px;
+    }
+}
+
+/*------------Gallery-----------------------*/
+
+.gallery {
+    @include flexboxCenter();
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 700px;
+    gap: 48px;
+    cursor: pointer;
+    margin-top: 40px;
+
+    & img {
+        border-radius: 15px;
+        width: 300px;
+        height: 210px;
+    }
+}
+
+/*-------------Footer-------------*/
+
+footer {
+    @include flexboxCenter();
+    margin-top: 20px;
+    color: $text-light;
+}

@@ -1,0 +1,46 @@
+$color-white: #ffffff;
+$color-dark-gray: #3d3d3d;
+
+.project--container__card {
+  position: relative;
+  overflow: hidden;
+  &:hover .container--card__overlay {
+    opacity: 0.88;
+  }
+  .container--card__img {
+    width: 362px;
+    height: 226px;
+  }
+  .container--card__overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    background-color: #ffe071;
+    width: 362px;
+    height: 226px;
+    top: 0;
+    opacity: 0;
+    transition: transform 0.4s ease 0s;
+    border-radius: 15px;
+    .overlay--card__title {
+      @include font-size(22px);
+    }
+    .overlay--card__text {
+      font-size: 14px;
+    }
+    .overlay--card__link {
+      width: 38px;
+      height: 38px;
+      padding: 0;
+      color: $color-dark-gray;
+      background-color: $color-white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 18px;
+    }
+  }
+}

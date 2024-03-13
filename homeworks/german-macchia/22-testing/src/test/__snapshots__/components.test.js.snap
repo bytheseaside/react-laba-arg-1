@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <Button /> should be a match between render and snapshot 1`] = `undefined`;
+
+exports[`Test in <Display /> should be a match between render and snapshot 1`] = `undefined`;

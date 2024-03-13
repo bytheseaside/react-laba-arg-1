@@ -1,0 +1,53 @@
+/* Projects section */
+
+.projects {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+  place-content: center;
+  margin-top: 4.5rem;
+}
+
+.project {
+  position: relative;
+
+  &__description {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    gap: 0.25rem;
+    place-content: center;
+    text-align: center;
+    padding: 1.25rem;
+    opacity: 0;
+    background-color: #ffe071dc;
+    border-radius: 1rem;
+    transition: 0.3s ease;
+  }
+
+  &__description:hover {
+    opacity: 1;
+  }
+
+  &__link {
+    margin: 1rem auto 0;
+    background-color: white;
+    padding: 0.75rem 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+
+  &__link:hover {
+    background-color: lightgray;
+  }
+
+  &__cursor {
+    position: absolute;
+    bottom: 45px;
+    right: 70px;
+  }
+}
