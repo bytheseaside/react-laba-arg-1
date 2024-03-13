@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.refreshAllButton {
+  background-color: #5e217a;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 6px;
+  width: 320px;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

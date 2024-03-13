@@ -1,0 +1,73 @@
+.keyboard {
+  display: grid;
+  width: 100%;
+  height  : calc(93.75px * 5);
+  min-width: calc(93.75px * 4);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 0px 0px;
+  grid-template-areas:
+    'button-clear button-operator-divide button-operator-multiply button-delete'
+    'button-number-7 button-number-8 button-number-9 button-operator-minus'
+    'button-number-4 button-number-5 button-number-6 button-operator-plus'
+    'button-number-1 button-number-2 button-number-3 button-equals '
+    'button-percent button-number-0 button-dot button-equals ';
+}
+
+.button-dot {
+  grid-area: button-dot;
+}
+.button-number-0 {
+  grid-area: button-number-0;
+}
+.button-number-1 {
+  grid-area: button-number-1;
+}
+.button-number-2 {
+  grid-area: button-number-2;
+}
+.button-number-3 {
+  grid-area: button-number-3;
+}
+.button-number-4 {
+  grid-area: button-number-4;
+}
+.button-number-5 {
+  grid-area: button-number-5;
+}
+.button-number-6 {
+  grid-area: button-number-6;
+}
+.button-number-7 {
+  grid-area: button-number-7;
+}
+.button-number-8 {
+  grid-area: button-number-8;
+}
+.button-number-9 {
+  grid-area: button-number-9;
+}
+.button-operator-plus {
+  grid-area: button-operator-plus;
+}
+.button-operator-minus {
+  grid-area: button-operator-minus;
+}
+.button-operator-multiply {
+  grid-area: button-operator-multiply;
+}
+.button-operator-divide {
+  grid-area: button-operator-divide;
+}
+.button-equals {
+  grid-area: button-equals;
+}
+.button-clear {
+  grid-area: button-clear;
+}
+.button-delete {
+  grid-area: button-delete;
+}
+.button-percent {
+  grid-area: button-percent;
+}

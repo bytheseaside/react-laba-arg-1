@@ -1,0 +1,7 @@
+.calculator {
+  background-color: #242530;
+  height: 812px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

@@ -1,0 +1,42 @@
+$dark-blue: #0c151d;
+$light-gray: #a3abb2;
+$dark-gray: #171f26;
+$text-size: 22px;
+
+.tabs-buttons {
+  width: 756px;
+  margin: 75px auto 65px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: $light-gray;
+  background-color: $dark-gray;
+  border-radius: 20px;
+  font-size: $text-size;
+
+  .tabs-buttons__option {
+    border-radius: 10px;
+    margin: $text-size;
+    width: 50%;
+    padding: $text-size;
+    text-align: center;
+  }
+
+  .tabs-buttons__selected {
+    background-color: $dark-blue;
+  }
+}
+
+.tab-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 800px;
+
+  .tab-content__img {
+    width: 362px;
+    height: 226px;
+    margin: 24px 16px;
+    border-radius: 15px;
+  }
+}

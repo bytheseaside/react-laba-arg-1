@@ -1,0 +1,12 @@
+.addAvatarTile {
+  height: 240px;
+  width: 240px;
+  border-radius: 16px;
+  margin: 20px;
+  border: 4px solid #5e217a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5e217a;
+  font-size: 80px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>br - Search algorithms</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <main>
+      <h1 class="heading">Search by sku</h1>
+      <form class="form">
+        <input class="form__sku-input" type="text" name="sku" placeholder="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" />
+        <div class="buttons-container">
+          <div class="buttons-container__button" data-searchtype="straight">Straight search</div>
+          <div class="buttons-container__button" data-searchtype="binary">Binary search</div>
+        </div>
+      </form>
+    </main>
+    <p class="search-result"> SEARCH SKU TO GET PRODUCT DATA</p>
+  </body>
+  <script type="module" src="./script.js"></script>
+</html>

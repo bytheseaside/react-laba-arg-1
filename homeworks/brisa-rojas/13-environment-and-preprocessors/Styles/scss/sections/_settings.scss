@@ -1,0 +1,22 @@
+$dark-gray: #171f26;
+
+.settings {
+  display: flex;
+  justify-content: center;
+  margin: 33px auto 65px auto;
+
+  .settings__color-mode-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $dark-gray;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    .settings__img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
