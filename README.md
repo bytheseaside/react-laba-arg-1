@@ -1,63 +1,25 @@
-# Solvd React Laba Argentina 2022
+#  React Laba Argentina 2022 🚀
 
-This repository contains all information about the lectures and serves as a central repository to submit all your class works.
+Welcome to my **laba journey**! This is where I stored all the cool stuff from my training at Solvd, which led to my awesome job here! 🎉
 
-## Structure
+## Course Overview
 
-You need to create a folder in the `homeworks` folder. The name should be `firstName-lastName`. E.g. for a developer Mykhailo Melnyk the name would be `mykhailo-melnyk`. The Sub-folder should have the same name as a lecture name.
+During the program, we dove into some exciting subjects, including:
 
-## Pull Requests
+- **Internet Basics** 🌐
+- **HTML** 📝
+- **Git** 🦸‍♂️
+- **CSS** 🎨
+- **JavaScript** 🔥
+- **React** ⚛️
+- **Data Structures & Algorithms** 📊
 
-### Naming
+## Check Out My Tasks!
 
-Every branch in upstream must starts with a prefix that is based on user initials. For example, for a developer Mykhailo Melnyk prefix would be `mm-`. In case of prefix collisions in the future the common rule is to dive deeper into the last name, for example: `mmel-`.
+Curious about what we did? Here are some tasks I worked on during the course:
 
-### Reviews
+- **Block 1 Tasks:** HTML, CSS, Git fun
+- **Block 2 Tasks:** JavaScript galore
+- **Block 3 Tasks:** React-ing to everything!
 
-Once PR is created you have to do the following things:
-
-- Assign your mentor as a reviewer
-- Ping the mentor about the PR ;)
-
-## Lecture schedule
-
-### Block 1
-
-| Day          | Theme            |
-| :----------- | :--------------- |
-| June 22th    | Internet Basics  |
-| June 24th    | HTML             |
-| June 28th    | Git              |
-| July 1st     | CSS Part 1       |
-| July 6th     | CSS, Part 2      |
-| July 7th-13th | First block exam |
-
-### Block 2
-
-| Day          | Theme              |
-| :----------- | :----------------- |
-| July 15th    | Javascript, Part 1 |
-| July 19th    | Javascript, Part 2 |
-| July 22th    | Javascript, Part 3 |
-| July 26th    | Javascript, Part 4 |
-| July 29th    | Javascript, Part 5 |
-| August 2nd   | Javascript, DOM    |
-| August 5th   | Data structures & algorithms |
-| August 9th   | Environment |
-| August 12th  | Principles |
-| August 16th  | Patterns |
-| August 22th-26th | Second block exam |
-
-### Block 3
-
-| Day          | Theme              |
-| :----------- | :----------------- |
-| September 2nd   | React basics |
-| September 6th   | Class and functional components |
-| September 9th   | Hooks |
-| September 13th  | React API, Code-splitting and Styling |
-| September 16th  | Proptypes and Redux |
-| September 20th  | SSR, Next.js |
-| September 23th  | Testing |
-| September 26th-30th | Learning week |
-| October 3nd-7th | Third block exam |
+Feel free to explore and get a glimpse of my journey! 🚀
